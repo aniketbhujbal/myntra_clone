@@ -1,0 +1,136 @@
+.main {
+    margin:15px;
+    /* border:1px solid black; */
+   
+    
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 5px; */
+    
+    border-bottom: 1px solid black;
+    
+}
+.head  p {
+    margin: 5px 0;
+}
+
+.pageFields {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin:0 50px; */
+    /* margin-right: 50px; */
+}
+.threeButtons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:5px
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+
+}
+.threeButtons >button {
+    background-color: transparent;
+}
+.menuItem {
+    position: relative;     
+    display: inline-block; 
+  }
+  
+  .dropdown {
+    /* position: absolute;  */
+    /* top: 100%;  */
+    margin-bottom: 5px;
+    right:0;
+    display: flex;
+    padding: 10px 25px;
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); */
+    border-radius: 0;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+
+  }
+.dropdown:focus {
+  outline: none;
+  border-radius: 0;
+  border-color: lightgray;
+  box-shadow: 0 0 0 3px lightgray(0, 123, 255, 0.25);
+}
+
+.dropdown option {
+  background-color: #fff;
+  color: #333;
+}
+
+.dropdown::after {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  border-radius: 0;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.dropdown-option {
+  padding: 8px 16px; /* Adjust spacing as needed */
+}
+
+/* Add space between options */
+.dropdown-option + .dropdown-option {
+  margin-top: 5px; /* Adjust margin as needed */
+}
+
+.dropdown-option:hover {
+  background-color: #f0f0f0;
+  /* Other hover styles */
+}
+
+
+
+
+
+
+
+
+  .column {
+    margin-right: 30px;
+  }
+  .dashboard {
+    float: left;
+    width: 20%;
+    position: sticky;
+    top: 0;
+    /* height: auto!important; */
+  }
+  .data {
+    
+    display: flex;
+    margin: 20px;
+    /* padding: 10px; */
+    justify-content:flex-start;
+    align-items: center;
+    /* gap:10px; */
+    flex-wrap: wrap;
+    position: relative;
+    /* z-index: -1; */
+  }
+
+  .Filter_title {
+    font-weight: bold;
+    /* margin: 5px 10px; */
+    padding: 10px 15px;
+  }
+
+  .filter_content {
+    padding: 3px 1px;
+  }

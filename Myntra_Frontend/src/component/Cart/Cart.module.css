@@ -1,0 +1,86 @@
+.Cart {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cartItems {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+.BillDetails {
+    /* border-left: 1px solid gray; */
+    width: 300px;
+    margin: 20px;
+   
+    font-size: 18px;
+}
+.PlaceOrderButton {
+    display: flex;
+    justify-content: center;
+    background-color: darkmagenta;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 13px 60px; 
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px;
+    border: 1px solid darkmagenta;
+    transition: background-color 0.3s ease;
+  }
+
+.PlaceOrderButton:hover {
+    
+    background-color: rgba(139, 0, 139, 0.837);
+    
+    border: 1px solid  rgba(139, 0, 139, 0.837);
+  }
+
+
+  
+  .PriceDetailRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    align-items: center;
+  }
+  
+  .PriceLabel {
+    border: 1px solid white;
+    float: left;
+    padding: 5px;
+  }
+  
+  .PriceValue {
+    float: right;
+    padding: 5px;
+  }
+  
+  .PlaceOrderButtonContainer {
+    float: left;
+    margin-top: 20px;
+  }
+  
+ 
+  .EmptyCart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 40px;
+  }
+  
+  .CartIcon {
+    font-size: 48px;
+    color: #ccc;
+  }
+  
+  .Message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #999;
+    text-align: center;
+  }

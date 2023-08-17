@@ -1,0 +1,17 @@
+.containerSlide {
+    width: 650px;
+    margin: auto;
+    padding-top: 50px; /* Adjust the padding to your preference */
+  }
+  
+  .containerSlide .each-slide {
+    display: flex; /* To align the images in a row */
+  }
+  
+  .containerSlide img {
+    height: 300px; /* Adjust the height to your preference */
+     width: 100%; 
+    object-fit: cover; /* Maintain image aspect ratio while covering the containerSlide */
+    margin-right: 10px; /* Adds a little spacing between images */
+  }
+  

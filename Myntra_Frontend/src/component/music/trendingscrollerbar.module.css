@@ -1,0 +1,60 @@
+/* trendingscrollerbar.module.css */
+.music_container {
+    overflow: hidden;
+    position: relative; /* Ensure the button is positioned correctly */
+  }
+  
+  .scrollable_row {
+    display: flex;
+    overflow-x: hidden; /* Hide the scrollbar, content will be scrollable */
+  }
+  
+  .scroll_button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1; /* Ensure the button is on top of the scrollable content */
+  }
+  /* trendingscrollerbar.module.css */
+/* ... Other styles ... */
+
+.scroll_button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .left {
+    left: 0;
+    
+  }
+  
+  .right {
+    right: 1rem;
+  }
+  
+  .scrollable_row {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    position: relative;
+    padding: 1rem; /* Adjust padding for button spacing */
+    scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+  }
+  
+  .music_item {
+    flex: 0 0 calc(33.33% - 1rem);
+    /* Your existing item styles here */
+  }
+  

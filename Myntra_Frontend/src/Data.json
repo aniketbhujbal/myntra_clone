@@ -1,0 +1,104 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "name": "Myntra Logo",
+        "description": "Myntra Logo",
+        "imageUrl": "../../assets/Myntralogo.png"
+      },
+      {
+        "id": 2,
+        "name": "Item 2",
+        "description": "Description for Item 2",
+        "imageUrl": "/images/image2.jpg"
+      }
+    ],
+    "slideshow":[
+      {
+        "id": 1,
+        "name": "discount",
+        "description": "discount image",
+        "imageUrl": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/30/e8aea330-10cd-4778-91ab-da9678161ec11690739860849-PB-Banner_Wishlist-Now.jpg"
+      },
+      {
+        "id": 2,
+        "name": "raymond",
+        "description": "discount image",
+        "imageUrl": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/7/28/6107d28b-2bcb-44e6-9743-655b54550b8f1659020199598-Workwear_Desk--1-.jpg"
+      },
+      {
+        "id": 3,
+        "name": "HrX",
+        "description": "discount image",
+        "imageUrl": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/31/4031994d-9092-4aa7-aea1-f52f2ae5194f1654006594976-Activewear_DK.jpg"
+      }
+    ],
+    "trendiestPicks":[
+      
+      {
+        "image":"https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/77ceae38-71d6-4399-ab77-45fbe625a1dd1690805809980-Roadster_2.png",
+        "key":"1"  
+      },
+      {
+        "image":"https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/ce3dd7be-1e9e-48cd-9e79-31c686a039161690805809617-Roadster.png",
+        "key":"2"  
+      },
+      {
+        "image":"https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/397f3719-c8ec-40bf-aa6a-9ee15d6eba5e1690805810002-H-N.png",
+        "key":"3"  
+      },
+      {
+        "image":"https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/76f87958-bae2-4b5f-a14c-c7530f9be8c61690805809863-dennis_Lingo.png",
+        "key":"4"  
+      },
+      {
+        "image":"https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/6123cdc0-c8fd-4902-ba21-ca08c03416ef1690805809664-Highlander.png",
+        "key":"5"  
+      },
+      {
+        "image":"https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/6123cdc0-c8fd-4902-ba21-ca08c03416ef1690805809664-Highlander.png",
+        "key":"6"  
+      },
+      {
+        "image":"https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/6123cdc0-c8fd-4902-ba21-ca08c03416ef1690805809664-Highlander.png",
+        "key":"8"  
+      },
+      {
+        "image":"https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/6123cdc0-c8fd-4902-ba21-ca08c03416ef1690805809664-Highlander.png",
+        "key":"9"  
+      },
+      {
+        "image":"https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/6123cdc0-c8fd-4902-ba21-ca08c03416ef1690805809664-Highlander.png",
+        "key":"10"  
+      },
+      {
+        "image":"https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/6123cdc0-c8fd-4902-ba21-ca08c03416ef1690805809664-Highlander.png",
+        "key":"11"  
+      },
+      {
+        "image":"https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/6123cdc0-c8fd-4902-ba21-ca08c03416ef1690805809664-Highlander.png",
+        "key":"12"  
+      },
+      {
+        "image":"https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/6123cdc0-c8fd-4902-ba21-ca08c03416ef1690805809664-Highlander.png",
+        "key":"13"  
+      },
+      {
+        "image":"https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/6123cdc0-c8fd-4902-ba21-ca08c03416ef1690805809664-Highlander.png",
+        "key":"14"  
+      },
+      {
+        "image":"https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/6123cdc0-c8fd-4902-ba21-ca08c03416ef1690805809664-Highlander.png",
+        "key":"15"  
+      },
+      {
+        "image":"https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/6123cdc0-c8fd-4902-ba21-ca08c03416ef1690805809664-Highlander.png",
+        "key":"16"  
+      }
+
+      
+
+
+    ]
+
+  }
